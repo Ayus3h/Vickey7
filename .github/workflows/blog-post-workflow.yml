@@ -1,0 +1,17 @@
+name: Latest blog post workflow
+on:
+  schedule:
+    # Runs every hour
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update-readme-with-blog:
+    name: Update this repos README with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          max_post_count: "4"
+          feed_list: "https://medium.com/#id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjVkZjFmOTQ1ZmY5MDZhZWFlZmE5M2MyNzY5OGRiNDA2ZDYwNmIwZTgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYmYiOjE2Nzg3MzA1ODQsImF1ZCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwODIzNDYyMjAzMTUyNjMwMDM4MSIsImVtYWlsIjoiY29yb25haXNkYW5nZXJjb3ZpZDE5QGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhenAiOiIyMTYyOTYwMzU4MzQtazFrNnFlMDYwczJ0cDJhMmphbTRsamRjbXMwMHN0dGcuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJuYW1lIjoiVmlja2V5IiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FHTm15eGJaeEczUmdHUjRZcDVnU2g2dG9YLW1PdXlOUG9DdEJRbXd1VDRTVVE9czk2LWMiLCJnaXZlbl9uYW1lIjoiVmlja2V5IiwiaWF0IjoxNjc4NzMwODg0LCJleHAiOjE2Nzg3MzQ0ODQsImp0aSI6IjVjMjZmOTFiZmExNGUzNjA4MDkxM2IzYTg2YzhjMmY5YzQxNjMzODcifQ.QIH5vOvrZho7LPBoncvNNN4uB5qOtY1uA4UD7MnkM2sSlDI3AcghaGzKS7bHma0YCv_6qSgub9M0i1qEzblfVkDShmtPuaCUlzf2h-MFMMoPgx0YEp-R_KmYyW8VNDpJGm1oixtTMWhhTq0fB1DpBodKBzr6iad4jgtE02WdRw2u2OMQm6lprANGVRf1Vh14kpp0Cl0c21AZEx5Ew7YadHHegMVYTUxoL-68X-AsYOi5rqiNCDLmspZ8JXnlexOdLL4TRO4m2ihdTmDqwhp9dAQCh5SllGT55-VMoqUfiq_H1sl3gi1meW-2gEi-hND2KUI2r7ssUWJhbpCbHXz7pg"
