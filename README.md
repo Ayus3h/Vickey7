@@ -60,6 +60,8 @@ I am a Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEm
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=Vickey7&theme=dracula&date_format=j%20M%5B%20Y%5D&border=19E7FF)](https://git.io/streak-stats)
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Vickey7)](https://github.com/anuraghazra/github-readme-stats)
 
+[![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Vickey7)](https://github.com/Vickey7/github-readme-stats)
+
 ---
 
 ### :writing_hand: Blog Posts :
@@ -80,5 +82,5 @@ jobs:
       - uses: Vickey7/blog-post-workflow@master
         with:
           max_post_count: "4"
-          feed_list: "https://dev.to/feed/itszed0"
+          feed_list: "https://medium.com/"
 <!-- BLOG-POST-LIST:END -->
