@@ -15,24 +15,28 @@
 <div id="badges" align="center">
   <img src="https://komarev.com/ghpvc/?username=Vickey7&style=flat-square&color=blue" alt=""/>
   <h1>
-  hey there
+  Hey there
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 </h1>
 </div>
 <div align="center">
   <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDA1Nzc4MWJkYzU0OWYzZDI0NzM5MGQxYmQzZWY5MGU0YzJiMGJmNSZjdD1n/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
 </div>
+
 ---
 
 ### :man_technologist: About Me :
-I am a Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from India.
-- :telescope: I’m working as a Software Engineer and contributing to frontend and backend for building web applications.
+I am a self-taught passionate <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Pune.
+- :telescope: I’m currently pursuing my Bachelor's in Computer engineering from [Bharati Vidyapeeth (DU) College of Engineering.](https://www.bvuniversity.edu.in/)
 
 - :seedling: Exploring Technical Content Writing.
 
 - :zap: In my free time, I solve problems on GeeksforGeeks and read tech articles.
 
-- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-Ayush-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/vickey-kumar22)
+- 📲 Connect with me: [![Linkedin Badge](https://img.shields.io/badge/-Ayush-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/vickey-kumar22)
+
+- :mailbox:How to reach me: **vickeykr2273@gmail.com**.
+
 ---
 
 ### :hammer_and_wrench: Languages and Tools :
@@ -54,6 +58,7 @@ I am a Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEm
   <img src="https://github.com/devicons/devicon/blob/master/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" title="AWS" alt="AWS" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
 </div>
+
 ---
 
 ### :fire: My Stats :
